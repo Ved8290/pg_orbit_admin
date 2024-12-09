@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <!-- Link to Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="login-container">
+        <h1>PG-Orbit</h1>
+        <h2>Admin Login</h2>
+        <button id="floginbtn" type="submit">
+            <i class="fas fa-sign-in-alt"></i> Login
+        </button>
+        
+        <!-- Login form -->
+        <form id="loginForm">
+            <input type="text" id="emailid" placeholder="Enter Email" required>
+            
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Enter Password" required>
+                <i class="fas fa-eye password-toggle" id="togglePassword"></i>
+            </div>
+
+        
+            <button type="submit">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 PG-Orbit | All Rights Reserved</p>
+    </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
